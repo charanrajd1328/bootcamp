@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: configserver
+    
+  profiles:    active: native
+  cloud:    config:        server:          native:            search-locations: file:C:\msprojectactivity-config
+server:  port: 8888            

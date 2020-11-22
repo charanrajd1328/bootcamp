@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: configserver
+  cloud:    config:        server:          git:
+            uri: https://github.ibm.com/manjunath-c/msprojectactivity.git
+            username: manjunath.c@in.ibm.com
+            password: 93d18f659dae439c3c84d2f70fc407cfa2281d6b
+server:  port: 8888            

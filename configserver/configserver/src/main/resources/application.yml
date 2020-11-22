@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+        server:
+          git:
+            uri: https://github.com/charanrajd1328/mspoc.git
+            username: devarara@in.ibm.com
+            password: 3ecf257a4703ad77d7a1ac49721ba6c26bc84d1a
+server:
+  port: 8888
